@@ -17,7 +17,7 @@
         align-items: center;
         justify-content: center;
         font-family: 'Arial', sans-serif;
-        background-size: auto;        /* Fills entire container */
+        background-size: 100%;        /* */
         background-position: center;   /* Centers the image */
         background-repeat: no-repeat;  /* Prevents tiling */
         background-attachment: scroll ;

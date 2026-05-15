@@ -1,6 +1,11 @@
 .img1{
-        background-image: url('img/img-002.jpeg');
-        
+        background-image: url('img/img-001.jpeg');      
+}
+.img2{
+        background-image: url('img/img-002.jpeg');      
+}
+.img3{
+        background-image: url('img/img-003.jpeg');      
 }
 
 .container-img {
@@ -11,7 +16,6 @@
         align-items: center;
         justify-content: center;
         font-family: 'Arial', sans-serif;
-        background-image: url('img/img-001.jpeg');
         background-size: cover;        /* Fills entire container */
         background-position: center;   /* Centers the image */
         background-repeat: no-repeat;  /* Prevents tiling */
@@ -24,115 +28,12 @@
         text-align: center;
 }
 
-.container-img2 {
-        width: 100%;
-        height: 100vh;
-        overflow: hidden;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-family: 'Arial', sans-serif;
-        background-image: url('img/img-002.jpeg');
-        background-size: cover;        /* Fills entire container */
-        background-position: center;   /* Centers the image */
-        background-repeat: no-repeat;  /* Prevents tiling */
-        background-attachment: ;  /* Optional: parallax effect */
-}
-                
-
-.container-img2 > * {
-        color: white;
-        text-align: center;
-}
-.container-img3 {
-        width: 100%;
-        height: 100vh;
-        overflow: hidden;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-family: 'Arial', sans-serif;
-        background-image: url('img/img-003.jpeg');
-        background-size: cover;        /* Fills entire container */
-        background-position: center;   /* Centers the image */
-        background-repeat: no-repeat;  /* Prevents tiling */
-        background-attachment: ;  /* Optional: parallax effect */
-}
-                
-
-.container-img3 > * {
-        color: white;
-        text-align: center;
-}
-
-.container-img4 {
-        width: 100%;
-        height: 100vh;
-        overflow: hidden;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-family: 'Arial', sans-serif;
-        background-image: url('img/img-4.jpeg');
-        background-size: cover;        /* Fills entire container */
-        background-position: center;   /* Centers the image */
-        background-repeat: no-repeat;  /* Prevents tiling */
-        background-attachment: ;  /* Optional: parallax effect */
-}
-                
-
-.container-img4 > * {
-        color: white;
-        text-align: center;
-}
-
 h1 {
         font-size: 3rem;
         margin-bottom: 20px;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-.container-img5 {
-        width: 100%;
-        height: 100vh;
-        overflow: hidden;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-family: 'Arial', sans-serif;
-        background-image: url('img/img-5.jpeg');
-        background-size: cover;        /* Fills entire container */
-        background-position: center;   /* Centers the image */
-        background-repeat: no-repeat;  /* Prevents tiling */
-        background-attachment: ;  /* Optional: parallax effect */
-}
-                
-
-.container-img5 > * {
-        color: white;
-        text-align: center;
-}
-
-.container-img6 {
-        width: 100%;
-        height: 100vh;
-        overflow: hidden;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-family: 'Arial', sans-serif;
-        background-image: url('img/img-6.jpeg');
-        background-size: cover;        /* Fills entire container */
-        background-position: center;   /* Centers the image */
-        background-repeat: no-repeat;  /* Prevents tiling */
-        background-attachment: ;  /* Optional: parallax effect */
-}
-                
-
-.container-img6 > * {
-        color: white;
-        text-align: center;
-}
 
 p {
         font-size: 1.2rem;

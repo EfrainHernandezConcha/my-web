@@ -30,7 +30,8 @@
 
 .text-top-container{
         position: relative; /*Cambia la propiedad "position" de su valor default "static" a relative, position relative to its normal position*/
-        bottom: 100px; 
+        botto: 100px; 
+        transform: translate (0%, 10%);
 }
 
 h1 {

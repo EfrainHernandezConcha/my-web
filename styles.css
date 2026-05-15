@@ -1,5 +1,6 @@
 .img1{
         background-image: url('img/img-001.jpeg');      
+        width:100%;
 }
 .img2{
         background-image: url('img/img-002.jpeg');      

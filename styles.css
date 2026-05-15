@@ -19,8 +19,7 @@
         background-size: cover;        /* Fills entire container */
         background-position: center;   /* Centers the image */
         background-repeat: no-repeat;  /* Prevents tiling */
-        background-attachment: ;  /* Optional: parallax effect */
-        text-align: center; /**/
+        background-attachment: fixed ;  /* Optional: parallax effect */
 }
                 
 

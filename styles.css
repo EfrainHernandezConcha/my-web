@@ -16,7 +16,7 @@
         align-items: center;
         justify-content: center ;
         font-family: 'Arial', sans-serif;
-        background-size: contain;        /* */
+        background-size: contain;   /* */
         background-position: center;   /* Centers the image */
         background-repeat: no-repeat;  /* Prevents tiling */
         background-attachment: scroll ;
@@ -30,7 +30,7 @@
 
 .text-top-container{
         position: relative; /*Cambia la propiedad "position" de su valor default "static" a relative, position relative to its normal position*/
-        bottom: 600px; 
+        bottom: 350px; 
 }
 
 h1 {

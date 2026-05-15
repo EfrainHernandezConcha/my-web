@@ -1,5 +1,5 @@
         // Optional: Log container dimensions
-        const container = document.querySelector('.container');
+        const container = document.querySelector('.container-img');
         
         function logContainerDimensions() {
             console.log('Container Width:', container.offsetWidth + 'px');

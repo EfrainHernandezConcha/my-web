@@ -1,5 +1,4 @@
 .img1{
-        width: 100%;
         background-image: url('img/img-001.jpeg');      
 }
 .img2{
@@ -15,7 +14,7 @@
 }
 
 .container-img {
-        width: 100%;
+        width: 100vh;
         height: 100vh;
         overflow: hidden;
         display: flex;

@@ -28,9 +28,9 @@
         text-align: center;
 }
 
-.top{
+.text-top{
         position: relative; /*Cambia la propiedad "position" de su valor default "static" a relative, position relative to its normal position*/
-        top: 10%; 
+        bottom: 50px; 
 }
 
 h1 {

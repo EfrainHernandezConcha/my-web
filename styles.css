@@ -19,7 +19,7 @@
         background-size: cover;        /* Fills entire container */
         background-position: center;   /* Centers the image */
         background-repeat: no-repeat;  /* Prevents tiling */
-        background-attachment: local ;  /* Optional: parallax effect */
+        background-attachment: scroll ;  /* Optional: parallax effect */
 }
                 
 

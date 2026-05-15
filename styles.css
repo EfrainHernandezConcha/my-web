@@ -1,4 +1,4 @@
-.container {
+.container-img {
         width: 100%;
         height: 100vh;
         overflow: hidden;
@@ -13,17 +13,8 @@
         background-attachment: fixed;  /* Optional: parallax effect */
 }
                 
-.bg-image {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: -1; /* Keeps it behind content */
-}
 
-.container > * {
+.container-img > * {
         color: white;
         text-align: center;
 }

@@ -1,4 +1,4 @@
-// ContainerImg1
+// Container-Img
         const container = document.querySelector('.container-img');
         
         function logContainerDimensions() {
@@ -12,17 +12,3 @@
         // Log on resize
         window.addEventListener('resize', logContainerDimensions);
 
-
-// ContainerImg2 
-        const containerImg2 = document.querySelector('.container-img2');
-        
-        function logContainerDimensions() {
-            console.log('Container Width:', containerImg2.offsetWidth + 'px');
-            console.log('Container Height:', containerImg2.offsetHeight + 'px');
-        }
-
-        // Log on load
-        window.addEventListener('load', logContainerDimensions);
-
-        // Log on resize
-        window.addEventListener('resize', logContainerDimensions);

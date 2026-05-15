@@ -28,6 +28,11 @@
         text-align: center;
 }
 
+.top{
+        position: relative; /*Cambia la propiedad "position" de su valor default "static" a relative, position relative to its normal position*/
+        top: 10%; 
+}
+
 h1 {
         font-size: 3rem;
         font-style: italic;

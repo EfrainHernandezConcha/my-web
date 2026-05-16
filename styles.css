@@ -39,7 +39,8 @@ body{
   padding: 0%;
   border-style:none;
   position: relative;
-  top:100px ;
+  top:5dvh;
+  border-style: none;
   
 }
      

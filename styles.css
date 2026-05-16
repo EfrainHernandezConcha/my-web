@@ -33,7 +33,7 @@ div{
 
 }
 
-.relative{ /*Clase utilizada como punto de "referencia" para elementos
+.reference{ /*Clase utilizada como punto de "referencia" para elementos
    que contiene con posicion absoluta como la clase ".top-corner-right"   */
   position:relative;
   justify-content: left;

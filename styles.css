@@ -28,13 +28,33 @@ body{
   background-image: url('img/img-003.jpeg');      
 }
 
+div{
+  border-style: none;/*TESTING*/
+
+}
+
+.relative{ /*Clase utilizada como punto de "referencia" para elementos
+   que contiene con posicion absoluta como la clase ".top-corner-right"   */
+  position:relative;
+  justify-content: left;
+  width: 0%;
+  height: 100vh;
+}
+.top-corner-right{ /*Clase para colocar elementos en las esquinas de una seccion, debe ir dentro de un div .relative*/
+  position:absolute;
+  width:350px;
+  transform:rotate(180deg) translateX(28%) translateY(10%);
+
+
+}
+
 .container-text-blank {
   width:100%;
   height: 100vh;
-  overflow: hidden; /*hidden*/
+  overflow:hidden; /*hidden*/
   display:flex; /*flex*/
   align-items: center;
-  justify-content: center;
+  justify-content:center;
   text-align: center;
   padding: 0%;
   border-style:none;

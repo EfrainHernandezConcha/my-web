@@ -1,15 +1,11 @@
-/*Clase .nombres definida para todos los nombres propios de la invitacion con la fuente
-"Great Vibes" y un font-size de 70px*/
-.nombres{
+.Great-Vibes{
   font-family: "Great Vibes", cursive;
   font-size: 70px;
   font-weight: 300;
   font-style: normal;
 }
 
-/*Clase .letra definida para los textos generales de la invitacion con la fuente 
-"Bacasime Antique" y un font-size de 20px*/
-.letra{
+.Bacasime{
   font-family: "Bacasime Antique", cursive;
   font-size: 20px;
   font-weight: 300;

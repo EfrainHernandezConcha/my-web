@@ -59,9 +59,7 @@ body{
 .text-up{
   position: relative;
   bottom:30px ;
-}
-
-p {
   font-size: 1.1rem;
   opacity: 0.9;
 }
+

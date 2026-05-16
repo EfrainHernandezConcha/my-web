@@ -25,7 +25,7 @@ body{
   background-image: url('img/img-002.jpeg');      
 }
 .img3{
-  background-image: url('img/img-003.jpeg');      
+  background-image: url('img/img-003.jpeg');    
 }
 
 div{
@@ -40,15 +40,31 @@ div{
   width: 0%;
   height: 100vh;
 }
-.top-corner-right{ /*Clase para colocar elementos en las esquinas de una seccion, debe ir dentro de un div .relative*/
+.top-corner-right{ /*Clase para colocar elementos en las esquinas de una seccion, 
+  debe ir dentro de un div "referencia" para no romper la estructura  */
   position:absolute;
   width:350px;
   transform:rotate(180deg) translateX(28%) translateY(10%);
-
-
 }
 
-.container-text-blank {
+
+.zoom{ /*Clase para hacer zoom en conjunto con la clase ".zoom-on" la cual trabaja con Javascript.
+  Se agrega la clase a un elemento "img" que este dentro de un elemento "div" con la clase
+  "container-img"    */
+  transition: transform 4.5s, opacity 0.5s ;
+  transform: scale(1.1);
+}
+
+.zoom-on{
+  transform: scale(1.4);
+  opacity: 1;
+}
+
+.container-text-blank { /* Clase usada para una seccion en blanco
+  altura 100 del visualport height, oculta elementos que se desbordan,
+  alineacion de los elementos al centro en ambos ejes X y Y, para incorporar mas 
+  elementos de decoracion debe colocarse dentro de este, un div con la clase ".referencia"
+  para poder ajustar posiciones sin alterar el centrado de los elementos principales*/
   width:100%;
   height: 100vh;
   overflow:hidden; /*hidden*/
@@ -61,7 +77,13 @@ div{
 }
      
 
-.container-img {
+.container-img { /* clase principa para galeria estatica con la opcion de agregar 
+  texto descriptivoa usando clases como ".text-up".
+  En esta clase se define el uso de una imagen como fondo del elemento pero debe ir acompanado 
+  con otra de las siguientes clases:img1, img2 o img3 en las cuales se define la ruta de la 
+  imagen que se utiliazara.
+  Tambien se puede hacer un zoom con scroll, pero en lugar de usar la clase ".img1.." 
+  se agrega dentro del div un elemento "img" que tenga la clase ".zoom" */
   width:100%;
   height: 100vh;
   overflow: hidden; /*hidden*/

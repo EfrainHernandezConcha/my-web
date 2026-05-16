@@ -1,49 +1,68 @@
+/*Clase .nombres definida para todos los nombres propios de la invitacion con la fuente
+"Great Vibes" y un font-size de 70px*/
+.nombres{
+  font-family: "Great Vibes", cursive;
+  font-size: 70px;
+  font-weight: 300;
+  font-style: normal;
+}
+
+/*Clase .letra definida para los textos generales de la invitacion con la fuente 
+"Bacasime Antique" y un font-size de 20px*/
+.letra{
+  font-family: "Bacasime Antique", cursive;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: normal;
+
+}
+
 .img1{
-        background-image: url('img/img-001.jpeg');      
+  background-image: url('img/img-001.jpeg');      
 }
 .img2{
-        background-image: url('img/img-002.jpeg');      
+  background-image: url('img/img-002.jpeg');      
 }
 .img3{
-        background-image: url('img/img-003.jpeg');      
+  background-image: url('img/img-003.jpeg');      
 }
 
 .container-img {
-        width: 100%;
-        height: 100vh;
-        overflow: hidden;
-        display: flex;
-        align-items: center;
-        justify-content: center ;
-        font-family: 'Arial', sans-serif;
-        background-size: contain;   /* */
-        background-position: center;   /* Centers the image */
-        background-repeat: no-repeat;  /* Prevents tiling */
-        background-attachment: scroll ;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center ;
+  font-family: 'Arial', sans-serif;
+  background-size: contain;   /* */
+  background-position: center;   /* Centers the image */
+  background-repeat: no-repeat;  /* Prevents tiling */
+  background-attachment: scroll ;
 }
-                
+          
 
 .container-img > * {
-        color: white;
-        text-align: center;
+  color: white;
+  text-align: center;
 }
 
 .text-top-container{
-        position: relative; /*Cambia la propiedad "position" de su valor default "static" a relative, position relative to its normal position*/
-        bottom: 225px; 
-        max-width: 90%;
+  position: relative; /*Cambia la propiedad "position" de su valor default "static" a relative, position relative to its normal position*/
+  bottom: 225px; 
+  max-width: 90%;
 }
 
 h1 {
-        font-size: 2.5rem;
-        font-style: italic;
-        margin-bottom: 20px;
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-        display: block;
+  font-size: 2.5rem;
+  font-style: italic;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  display: block;
 }
 
 
 p {
-        font-size: 1.2rem;
-        opacity: 0.9;
+  font-size: 1.2rem;
+  opacity: 0.9;
 }

@@ -20,7 +20,7 @@ function zoomScroll() {
   zoom.forEach(el => {
     const distancia = el.getBoundingClientRect().top;
 
-    if (distancia < alturaPantalla - 100) {
+    if (distancia < alturaPantalla - 50) {
       el.classList.add('zoom-on');
     }
     else {

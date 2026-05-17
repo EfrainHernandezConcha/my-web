@@ -50,7 +50,7 @@ div{
   debe ir dentro de un div "referencia" para no romper la estructura  */
   position:absolute;
   width:350px;
-  transform:rotate(70deg) translateX(-40%) translateY(-65%);
+  transform:rotate(70deg) translateX(-40%) translateY(-70%);
 }
 
 .zoom{ /*Clase para hacer zoom en conjunto con la clase ".zoom-on" la cual trabaja con Javascript.
@@ -127,7 +127,14 @@ div{
   el texto central, debe estar dentro de un div clase .reference*/
   position: relative;
   width: 150px;
-  top: 190px;
   left: 60px;
-  
 }
+
+.height-1{ /*Clase para definir alturas height1, height2,...*/
+  top:180px
+}
+
+.height-2{  /*Clase para definir alturas height1, height2,...*/
+  top:140px;
+}
+

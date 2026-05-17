@@ -122,7 +122,7 @@ div{
   el texto central, debe estar dentro de un div clase .reference*/
   position: relative;
   width: 150px;
-  top: 200px;
+  top: 120px;
   left: 50px;
-  border-style: solid;
+  
 }

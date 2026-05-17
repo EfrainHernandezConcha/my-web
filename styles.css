@@ -51,7 +51,7 @@ div{
 .zoom{ /*Clase para hacer zoom en conjunto con la clase ".zoom-on" la cual trabaja con Javascript.
   Se agrega la clase a un elemento "img" que este dentro de un elemento "div" con la clase
   "container-img"    */
-  transition: transform 4.5s, opacity 0.5s ;
+  transition: transform 2.5s, opacity 0.5s ;
   transform: scale(1.1);
 }
 
@@ -118,3 +118,11 @@ div{
   opacity: 0.9;
 }
 
+.image-small-center{ /*Ajusta posicion y tamano de imagen, para ajustarla en relacion con 
+  el texto central, debe estar dentro de un div clase .reference*/
+  position: relative;
+  width: 150px;
+  top: 200px;
+  left: 50px;
+  border-style: solid;
+}

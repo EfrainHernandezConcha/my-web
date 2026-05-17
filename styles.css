@@ -34,19 +34,24 @@ div{
 }
 
 .reference{ /*Clase utilizada como punto de "referencia" para elementos
-   que contiene con posicion absoluta como la clase ".top-corner-right"   */
+   que contiene con posicion absoluta como la clase ".top-left"   */
   position:relative;
   justify-content: left;
   width: 0%;
   height: 100vh;
 }
-.top-corner-right{ /*Clase para colocar elementos en las esquinas de una seccion, 
+.top-left{ /*Clase para colocar elementos en las esquinas de una seccion, 
   debe ir dentro de un div "referencia" para no romper la estructura  */
   position:absolute;
   width:350px;
   transform:rotate(180deg) translateX(28%) translateY(10%);
 }
-
+.top-right{ /*Clase para colocar elementos en las esquinas de una seccion, 
+  debe ir dentro de un div "referencia" para no romper la estructura  */
+  position:absolute;
+  width:350px;
+  transform:rotate(70deg) translateX(-40%) translateY(-65%);
+}
 
 .zoom{ /*Clase para hacer zoom en conjunto con la clase ".zoom-on" la cual trabaja con Javascript.
   Se agrega la clase a un elemento "img" que este dentro de un elemento "div" con la clase
@@ -122,7 +127,7 @@ div{
   el texto central, debe estar dentro de un div clase .reference*/
   position: relative;
   width: 150px;
-  top: 120px;
+  top: 190px;
   left: 60px;
   
 }
